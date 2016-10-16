@@ -1,0 +1,19 @@
+/*
+ * Custom style sheet, mainly used to adapt to the theme of this site.
+ * @date 2016-10-16 
+ * @author yadong.zhang
+ */
+/* 引入网站核心css样式 */
+@import url(core.css);
+
+/* 右侧(About侧)样式 */
+@media (min-width: 768px){
+	.col-sm-offset-1 {
+		margin-left: 6.333333%;
+	}
+	.col-sm-3 {
+		width: 27%;
+	}
+}
+
+
