@@ -10,7 +10,7 @@
 
 body {
   padding-top: 70px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Microsoft YaHei';
   color: #555;
 }
 
@@ -20,7 +20,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Microsoft YaHei';
   font-weight: normal;
   color: #333;
 }
@@ -88,7 +88,7 @@ h6, .h6 {
   border-bottom: .05rem solid #eee;
 }
 .blog-title {
-  margin-bottom: 0;
+  margin-bottom: 5px;
   font-size: 2rem;
   font-weight: normal;
 }
@@ -99,7 +99,7 @@ h6, .h6 {
 
 @media (min-width: 40em) {
   .blog-title {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -154,12 +154,46 @@ h6, .h6 {
 }
 .blog-post-title {
   margin-bottom: .25rem;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 .blog-post-meta {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.0rem;
   color: #999;
 }
+.blog-post-body {
+	font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    border-bottom: dashed 1px #dcdcdc;
+    padding-bottom: 12px;
+}
+.blog-post-footer {
+	position: relative;
+    padding: 10px 0 0;
+}
+.blog-post-footer .left{
+	width: 55%;
+    float: left;
+    font-size: 14px;
+    color: #bbb;
+}
+.blog-post-footer .right{
+	float: right;
+    font-size: 14px;
+    color: #999;
+}
+
+.blog-post-footer span{
+	display: inline-block;
+    margin: 0 20px 0 8px;
+}
+.blog-post-footer a{
+	color: #393939;
+}
+.blog-post-footer a:active, .blog-post-footer a:hover{
+	outline: 0;
+}
+
 
 
 /*
